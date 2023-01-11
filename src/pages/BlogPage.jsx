@@ -1,10 +1,12 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link, Outlet} from "react-router-dom";
 import blogData from "../fixtures/blockData";
+
 function BlogPage() {
     return (
         <React.Fragment>
             <h1>Blog Page</h1>
+            <Outlet/>
             <ul>
                 {blogData.map(post => (
                     <BlogLink key={post.slug} post={post}/>
