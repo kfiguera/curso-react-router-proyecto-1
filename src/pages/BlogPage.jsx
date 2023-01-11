@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, Outlet} from "react-router-dom";
-import blogData from "../fixtures/blockData";
+import blogData from "../fixtures/blogData";
 
 function BlogPage() {
     return (
