@@ -13,7 +13,7 @@ const AuthProvider = ({children}) => {
         navigate('/profile');
     };
     const logout = () => {
-        setUser(null);33333
+        setUser(null);
         console.log('User logged out');
         navigate('/');
     };
